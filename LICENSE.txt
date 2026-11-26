@@ -1,0 +1,28 @@
+LittleChat – Nutzungsbedingungen
+
+Copyright (c) 2026 Timo Hübner / LittleClaude. Alle Rechte vorbehalten.
+
+LittleChat und die zugehörige Dokumentation sind urheberrechtlich geschützt.
+Der Quellcode ist nicht öffentlich. Dieses Repository enthält ausschließlich
+fertige Pakete für automatische Updates.
+
+1. Erlaubt ist allein die private, nicht-kommerzielle Nutzung der hier
+   veröffentlichten, unveränderten Pakete im eigenen Haushalt.
+2. Nicht erlaubt sind insbesondere: Weitergabe oder erneute Veröffentlichung
+   der Pakete oder von Teilen daraus, Veränderung, Zurückentwickeln über das
+   gesetzlich zwingend Erlaubte hinaus, Unterlizenzierung, Verkauf und jede
+   kommerzielle Nutzung.
+3. Diese Erlaubnis ist nicht ausschließlich, nicht übertragbar und kann vom
+   Rechteinhaber jederzeit widerrufen oder geändert werden. Es entstehen keine
+   weiteren Rechte, auch nicht durch frühere Veröffentlichungen.
+4. Die Software wird ohne Gewähr bereitgestellt. Eine Haftung für Schäden, die
+   aus der Nutzung entstehen, ist im gesetzlich zulässigen Umfang
+   ausgeschlossen. Verantwortung für den Betrieb, für die Kosten bei Anthropic
+   und für die Einhaltung der Anthropic-Nutzungsrichtlinien trägt, wer die
+   Software betreibt.
+
+Bestandteile Dritter stehen unter ihren eigenen Lizenzen (siehe THIRD_PARTY.md
+im Paket).
+
+LittleChat ist inoffiziell und nicht mit Anthropic verbunden. „Claude“ ist eine
+Marke von Anthropic.

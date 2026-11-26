@@ -17,12 +17,19 @@ fertige Pakete für automatische Updates.
    weiteren Rechte, auch nicht durch frühere Veröffentlichungen.
 4. Die Software wird ohne Gewähr bereitgestellt. Eine Haftung für Schäden, die
    aus der Nutzung entstehen, ist im gesetzlich zulässigen Umfang
-   ausgeschlossen. Verantwortung für den Betrieb, für die Kosten bei Anthropic
-   und für die Einhaltung der Anthropic-Nutzungsrichtlinien trägt, wer die
-   Software betreibt.
+   ausgeschlossen. Verantwortung für den Betrieb, für die Kosten bei den
+   KI-Anbietern (Anthropic, OpenAI, Google, Mistral AI, xAI) und für die
+   Einhaltung ihrer Nutzungsrichtlinien trägt, wer die Software betreibt.
+5. Verantwortung der Eltern: LittleChat ist für Kinder unter Aufsicht ihrer
+   Eltern gedacht. Die Eltern tragen die Verantwortung für die Nutzung durch
+   ihre Kinder und haften für sie im Rahmen ihrer Aufsichtspflicht. Sie
+   behalten die Themen und Gespräche im Blick (Eltern-Bereich, „Gespräche“).
+   KI-Antworten können falsch oder unpassend sein. Alle Anbieter außer Claude
+   sind mit LittleChat ungetestet. Die Nutzung erfolgt auf eigene Gefahr.
 
 Bestandteile Dritter stehen unter ihren eigenen Lizenzen (siehe THIRD_PARTY.md
 im Paket).
 
-LittleChat ist inoffiziell und nicht mit Anthropic verbunden. „Claude“ ist eine
-Marke von Anthropic.
+LittleChat ist inoffiziell und nicht mit Anthropic, OpenAI, Google, Mistral AI,
+xAI oder Ollama verbunden. „Claude“, „ChatGPT“, „Gemini“ und „Grok“ sind Marken
+ihrer Anbieter.

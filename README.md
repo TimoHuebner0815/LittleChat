@@ -1,8 +1,16 @@
 # LittleChat
 
-**Ein Walkie-Talkie für Kinder, mit dem sie per Stimme Fragen an Claude stellen.** Knopf gedrückt halten, fragen, loslassen, Antwort hören. Eltern bestimmen Limits, geben Geräte frei und können die Gespräche nachlesen.
+**Ein Walkie-Talkie für Kinder, mit dem sie per Stimme Fragen an eine KI stellen: standardmäßig Claude, wahlweise ChatGPT, Gemini, Mistral, Grok oder lokal über Ollama.** Knopf gedrückt halten, fragen, loslassen, Antwort hören. Eltern bestimmen Limits, geben Geräte frei und können die Gespräche nachlesen.
 
-> Inoffiziell, nicht mit Anthropic verbunden. „Claude“ ist eine Marke von Anthropic. LittleChat nutzt die Anthropic-API mit deinem eigenen API-Schlüssel.
+> Inoffiziell, nicht mit Anthropic, OpenAI, Google, Mistral AI, xAI oder Ollama verbunden. „Claude“, „ChatGPT“, „Gemini“ und „Grok“ sind Marken ihrer Anbieter. LittleChat nutzt die öffentlichen APIs mit deinem eigenen API-Schlüssel. Ein Abo (Claude Pro, ChatGPT Plus …) funktioniert nicht.
+
+## KI-Anbieter
+
+Claude ist der Standard und für Kinder am besten abgestimmt. Im Eltern-Bereich lassen sich weitere Anbieter einrichten, global oder pro Kind: ChatGPT (OpenAI), Gemini (Google), Mistral (Daten in der EU), Grok (xAI, für Kinder nicht empfohlen) und Ollama (lokal, kostenlos, auf schwacher Hardware langsam). Alle Anbieter außer Claude sind mit der Persona von LittleChat **ungetestet**. Anleitungen pro Anbieter sind im Eltern-Bereich verlinkt.
+
+## Verantwortung der Eltern
+
+**Eltern tragen die Verantwortung für die Nutzung durch ihre Kinder und haften für sie im Rahmen ihrer Aufsichtspflicht.** Behaltet die Themen und Gespräche im Blick, im Eltern-Bereich lässt sich jedes Gespräch nachlesen. Keine KI ist fehlerfrei. **Nutzung auf eigene Gefahr.**
 
 Dieses Repository enthält nur die **fertigen, signierten Pakete**. Der Quellcode ist nicht öffentlich.
 

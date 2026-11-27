@@ -1,6 +1,6 @@
 LittleChat – Nutzungsbedingungen
 
-Copyright (c) 2026 Timo Hübner / LittleClaude. Alle Rechte vorbehalten.
+Copyright (c) 2026 LittleChat. Alle Rechte vorbehalten.
 
 LittleChat und die zugehörige Dokumentation sind urheberrechtlich geschützt.
 Der Quellcode ist nicht öffentlich. Dieses Repository enthält ausschließlich

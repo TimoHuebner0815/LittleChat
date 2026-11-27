@@ -42,4 +42,4 @@ Eine installierte LittleChat holt neue Versionen von hier selbst ab:
 
 ## Lizenz
 
-Copyright (c) 2026 Timo Hübner / LittleClaude. Alle Rechte vorbehalten. Erlaubt ist nur die private Nutzung im eigenen Haushalt, Einzelheiten in [LICENSE.txt](LICENSE.txt).
+Copyright (c) 2026 LittleChat. Alle Rechte vorbehalten. Erlaubt ist nur die private Nutzung im eigenen Haushalt, Einzelheiten in [LICENSE.txt](LICENSE.txt).

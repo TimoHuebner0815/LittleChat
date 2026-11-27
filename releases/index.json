@@ -1,5 +1,12 @@
 [
  {
+  "version": "2026.11.27-ceadd56",
+  "seq": 1795809958,
+  "commit": "ceadd567d7a12a9fd9a57efa04f9784747f0fdc6",
+  "file": "releases/littlechat-2026.11.27-ceadd56.zip",
+  "sha256": "fcbf1c760f5624e456e4021b73dd54e85e9e35190ae3abe4277088a02d0a4a4b"
+ },
+ {
   "version": "2026.11.27-0a126fb",
   "seq": 1795809141,
   "commit": "0a126fbe8bbc6cd025eceae8b659e05b1c6bca8d",

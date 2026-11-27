@@ -1,4 +1,4 @@
 {
- "payload": "{\"app\":\"LittleChat\",\"version\":\"2026.11.27-0a126fb\",\"seq\":1795809141,\"commit\":\"0a126fbe8bbc6cd025eceae8b659e05b1c6bca8d\",\"file\":\"releases/littlechat-2026.11.27-0a126fb.zip\",\"size\":2012717,\"sha256\":\"48d4b59e19fa993e06b9fe668bfea9d002227fa12cbb63fee9996609be84cc80\",\"published\":\"2026-11-27T20:07:38.839Z\"}",
- "signature": "uoqV34x3wKVGEIWtCn7EjYE9+EhurKwuZmSOuAtuBSxtaKlTkkk+UjLkeJul92zHHVjslNkwUgnr18TgNvPCCA=="
+ "payload": "{\"app\":\"LittleChat\",\"version\":\"2026.11.27-ceadd56\",\"seq\":1795809958,\"commit\":\"ceadd567d7a12a9fd9a57efa04f9784747f0fdc6\",\"file\":\"releases/littlechat-2026.11.27-ceadd56.zip\",\"size\":2012717,\"sha256\":\"fcbf1c760f5624e456e4021b73dd54e85e9e35190ae3abe4277088a02d0a4a4b\",\"published\":\"2026-11-27T20:17:09.207Z\"}",
+ "signature": "4vkxep3DTmPNipxd4smEam5CBk6n53DoMe/PeBli9pENHN76hliAaZjiExgtdEEhMKzkSvz+xq7xsghZ2aKTAA=="
 }

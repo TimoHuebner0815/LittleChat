@@ -23,13 +23,25 @@ Claude ist der Standard und für Kinder am besten abgestimmt. Im Eltern-Bereich 
 
 Dieses Repository enthält nur die **fertigen, signierten Pakete**. Der Quellcode ist nicht öffentlich.
 
-## Installieren (Windows)
+## Installieren
 
-1. [Neueste Version herunterladen](https://github.com/TimoHuebner0815/LittleChat/raw/main/releases/littlechat-latest.zip) und entpacken, z. B. nach `C:\LittleChat`.
-2. Im Ordner mit der rechten Maustaste auf `scripts\install-windows.ps1` klicken und **„Mit PowerShell ausführen“** wählen.
-3. Das Skript richtet alles ein, auch die automatischen Updates, und öffnet den Einrichtungs-Assistenten im Browser.
+Alles, was LittleChat braucht (Node.js, Stimmen, Tailscale für die Tablets), lädt der Installer selbst vom jeweiligen Hersteller. Du brauchst nur einen Rechner, der an bleibt, einen API-Schlüssel (z. B. von Anthropic) und ein kostenloses Tailscale-Konto. Dauer: etwa 30 Minuten.
 
-Die vollständige Anleitung steht in der `README.md` im Paket.
+**Windows 10/11**
+1. [littlechat-latest.zip herunterladen](https://github.com/TimoHuebner0815/LittleChat/raw/main/releases/littlechat-latest.zip) und entpacken (Rechtsklick › „Alle extrahieren…“).
+2. Im Ordner doppelt auf **`LittleChat-installieren.cmd`** klicken und die Fragen mit Enter bestätigen.
+3. Im Browser, der sich öffnet, den Einrichtungscode eingeben, Eltern-Passwort und API-Schlüssel festlegen.
+
+**Linux / Raspberry Pi (64 Bit)**
+```bash
+curl -fsSLO https://github.com/TimoHuebner0815/LittleChat/raw/main/releases/littlechat-latest.zip
+mkdir -p ~/littlechat && cd ~/littlechat && unzip -o ../littlechat-latest.zip
+sudo bash scripts/install-linux.sh
+```
+
+**Tablets:** App **Tailscale** installieren und mit demselben Konto anmelden, die angezeigte `https://….ts.net`-Adresse öffnen, zum Home-Bildschirm hinzufügen und im Eltern-Bereich unter „Geräte“ koppeln.
+
+Die ausführliche, bebilderte Schritt-für-Schritt-Anleitung (auch Zurück auf die vorige Version, Deinstallieren, Probleme lösen) steht in **`INSTALLATION.md`** im Paket.
 
 ## Updates
 
@@ -37,7 +49,7 @@ Eine installierte LittleChat holt neue Versionen von hier selbst ab:
 
 - **Signiert:** Jede Version ist mit einem Schlüssel signiert, den nur der Prüfrechner kennt. Ohne gültige Signatur wird nichts installiert.
 - **Erprobt:** Eine Version erscheint hier erst, nachdem sie mindestens 3 Stunden ohne Fehler im Alltag lief.
-- **Rücksichtsvoll:** Eingespielt wird nur, wenn gerade kein Kind spricht. Startet die neue Version nicht, kehrt LittleChat automatisch zur alten zurück.
+- **Rücksichtsvoll:** Eingespielt wird nur, wenn gerade kein Kind spricht. Startet die neue Version nicht, kehrt LittleChat automatisch zur alten zurück. Von Hand zurück geht mit `LittleChat-zurueck.cmd` (Windows).
 - **Privat:** Beim Prüfen auf Updates ruft LittleChat nur `latest.json` von GitHub ab. GitHub sieht dabei wie bei jedem Abruf die IP-Adresse. Daten über dich oder deine Kinder werden nicht gesendet.
 
 ## Lizenz

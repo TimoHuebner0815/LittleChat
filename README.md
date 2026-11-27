@@ -36,7 +36,7 @@ Die vollständige Anleitung steht in der `README.md` im Paket.
 Eine installierte LittleChat holt neue Versionen von hier selbst ab:
 
 - **Signiert:** Jede Version ist mit einem Schlüssel signiert, den nur der Prüfrechner kennt. Ohne gültige Signatur wird nichts installiert.
-- **Erprobt:** Eine Version erscheint hier erst, nachdem sie mindestens 12 Stunden ohne Fehler im Alltag lief.
+- **Erprobt:** Eine Version erscheint hier erst, nachdem sie mindestens 3 Stunden ohne Fehler im Alltag lief.
 - **Rücksichtsvoll:** Eingespielt wird nur, wenn gerade kein Kind spricht. Startet die neue Version nicht, kehrt LittleChat automatisch zur alten zurück.
 - **Privat:** Beim Prüfen auf Updates ruft LittleChat nur `latest.json` von GitHub ab. GitHub sieht dabei wie bei jedem Abruf die IP-Adresse. Daten über dich oder deine Kinder werden nicht gesendet.
 

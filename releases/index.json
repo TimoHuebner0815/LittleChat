@@ -1,5 +1,12 @@
 [
  {
+  "version": "2026.11.28-7ab30ba",
+  "seq": 1795863438,
+  "commit": "7ab30bafe2aa09fc7614977a63e25dcc49e98e5a",
+  "file": "releases/littlechat-2026.11.28-7ab30ba.zip",
+  "sha256": "084cc559f3b96081de7994e985b617df136f1b2962f00c17e76f00968d33dde4"
+ },
+ {
   "version": "2026.11.28-65202d3",
   "seq": 1795823708,
   "commit": "65202d322b790d41d4119b7432a549e2233df61e",

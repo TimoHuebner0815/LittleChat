@@ -9,16 +9,18 @@
 ## Was LittleChat kann
 
 - **Nur Sprache:** Kinder brauchen nicht lesen zu können. Bis 8 Jahre wird jeder Knopf angesagt, Untertitel zeigen den vorgelesenen Satz (pro Kind abschaltbar).
-- **Fünf Gesprächsmodi:** Lernen, Erkunden, Erforschen, Kreativ, Langeweile, pro Kind freischaltbar.
-- **Avatar 🧸:** Mit dem eigenen Knopf erfindet jedes Kind per Stimme bis zu 3 Fantasiefiguren, die die KI im Emoji-Stil malt.
+- **Fünf Gesprächsmodi:** Lernen 🎓, Erkunden 🧭, Erforschen 🔍, Kreativ 🖌️ (der Pinsel), Langeweile 🎲, pro Kind freischaltbar.
+- **Avatar 🐥:** Mit dem eigenen Knopf erfindet jedes Kind per Stimme bis zu 3 Fantasiefiguren, die die KI im Emoji-Stil malt.
 - **Seifenblasen:** Frühere Gespräche schweben als Blasen über den Bildschirm, Antippen setzt sie fort.
-- **Eigene Farbe** wählt jedes Kind selbst, ein Farbschloss schützt das Profil vor Geschwistern.
+- **Eigene Farbe** wählt jedes Kind selbst über die Farbpalette 🎨, ein Farbschloss schützt das Profil vor Geschwistern.
 - **Stimmen:** Piper lokal und kostenlos (Standard), wahlweise Google, Microsoft Azure, ElevenLabs oder die Stimme des Geräts, für alle oder pro Kind.
-- **Eltern-Bereich:** Limits (Uhrzeit, Minuten, Fragen, Tokens, Dollar), Gespräche nachlesen und löschen, Geräte freigeben, Name des Assistenten ändern.
+- **Eltern-Bereich** (Zahnrad ⚙ oben rechts 2 Sekunden gedrückt halten): Zeitlimits pro Kind (Uhrzeit, Minuten, Fragen), Gespräche nachlesen und löschen, Geräte freigeben, Name des Assistenten ändern.
 
 ## KI-Anbieter
 
 Claude ist der Standard und für Kinder am besten abgestimmt. Im Eltern-Bereich lassen sich weitere Anbieter einrichten, global oder pro Kind: ChatGPT (OpenAI), Gemini (Google), Mistral (Daten in der EU), Grok (xAI) und Ollama (lokal, kostenlos, auf schwacher Hardware langsam). Alle Anbieter außer Claude sind mit der Persona von LittleChat **ungetestet**. Anleitungen pro Anbieter sind im Eltern-Bereich verlinkt.
+
+**Empfehlung (Stand November 2026):** als KI **Claude mit dem Modell Haiku** (Standard, schnell, günstig, für Kinder abgestimmt), als Stimme **Google Cloud Text-to-Speech** mit den Chirp-3-HD-Stimmen (sehr natürlich, 1 Mio. Zeichen im Monat gratis). Piper bleibt die kostenlose Alternative, bei der nichts das Haus verlässt.
 
 ## Verantwortung der Eltern
 
@@ -45,7 +47,7 @@ Dieses Repository enthält nur die **fertigen, signierten Pakete**. Der Quellcod
 
 1. **Herunterladen:** [littlechat-latest.zip](https://github.com/TimoHuebner0815/LittleChat/raw/main/releases/littlechat-latest.zip)
 2. **Entpacken:** Rechtsklick auf die ZIP-Datei › „Alle extrahieren…“ › „Extrahieren“. Der Ort ist egal: Der Installer kopiert LittleChat selbst nach `C:\LittleChat`.
-3. **Starten:** Im entpackten Ordner doppelt auf **`LittleChat-installieren.cmd`** klicken.
+3. **Starten:** Im entpackten Ordner doppelt auf **`LittleChat-installieren.cmd`** klicken. Die Datei startet nur das PowerShell-Skript `scripts\install-windows.ps1` mit den nötigen Rechten, so muss niemand PowerShell selbst bedienen.
    - Zeigt Windows „Der Computer wurde durch Windows geschützt“: auf „Weitere Informationen“ und dann „Trotzdem ausführen“ klicken.
    - Fragt Windows „Möchten Sie zulassen, dass…“: auf **Ja** klicken. Der Installer braucht einmal Administratorrechte.
 4. **Zuschauen und zwei Fragen beantworten.** Der Installer
@@ -109,7 +111,9 @@ Der Installer öffnet den Browser von selbst. Sonst am Server `http://localhost:
 2. **Eltern-Passwort** festlegen, mindestens 10 Zeichen. Nicht den Kindern verraten.
 3. **API-Schlüssel:** Der Assistent erklärt Schritt für Schritt, wie du bei Anthropic einen Schlüssel anlegst und ein Ausgabenlimit setzt. Einfügen, fertig. Der Server prüft ihn und speichert ihn verschlüsselt. Andere Anbieter (ChatGPT, Gemini, Mistral, Grok, Ollama) gehen später im Eltern-Bereich.
 4. **Wiederherstellungsschlüssel** aufschreiben oder ausdrucken und gut aufheben. Ohne ihn lassen sich Backups auf einem neuen Rechner nicht öffnen.
-5. Im Eltern-Bereich unter **Kinder** jedes Kind mit Vorname und Geburtsdatum anlegen und die Limits prüfen (Uhrzeit, Minuten, Fragen, Kosten).
+5. Im Eltern-Bereich unter **Kinder** jedes Kind mit Vorname und Geburtsdatum anlegen und die Zeitlimits prüfen (Uhrzeit, Minuten, Fragen).
+
+**Eltern-Bereich öffnen:** Auf dem Startbildschirm das **Zahnrad ⚙ oben rechts 2 Sekunden gedrückt halten**, dann das Eltern-Passwort eingeben. Kurzes Antippen öffnet ihn absichtlich nicht, dann erklärt LittleChat dem Kind nur, dass das Zahnrad für die Eltern ist. Beim Verlassen sperrt sich der Eltern-Bereich wieder.
 
 ---
 
